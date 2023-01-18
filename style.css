@@ -4,12 +4,48 @@ html {
     sans-serif;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffc945;
+}
+
 header {
   background-color: #269988;
   color: white;
+  display: flex;
+  font-size: 75%;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.second-section {
+.button-section {
   background-color: rgba(69, 160, 129, 255);
   color: white;
+  display: flex;
+  font-size: 75%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.first-list {
+  background-color: #ffc945;
+  display: flex;
+  font-size: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+}
+
+.second-list {
+  background-color: #ffc945;
+  display: flex;
+  font-size: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
 }
